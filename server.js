@@ -13,7 +13,8 @@
     };
     
     // Инициализация приложения
-    tg.expand();
+    tg.expand(); // Раскрыть на весь экран
+    tg.isExpanded = true;
     tg.enableClosingConfirmation();
     tg.BackButton.show();
     tg.BackButton.onClick(() => {
